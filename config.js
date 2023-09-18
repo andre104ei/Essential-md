@@ -9,13 +9,13 @@ import moment from 'moment-timezone'
 
 global.owner = [
   ['3313007291', 'andrea Bot', true],
-  ['3313007291'],
-  ['3313007291'],
-  ['3313007291']
+  ['3109354823'],
+  ['3109354823'],
+  ['3109354823']
 ] 
 
-global.suittag = ['3313007291'] 
-global.prems = ['3313007291'] 
+global.suittag = ['3109354823'] 
+global.prems = ['3109354823'] 
 
 global.packname = '𝐄𝐒𝐒𝐄𝐍𝐓𝐈𝐀𝐋'
 global.author = '𝐁Ꮻ𝐓'
@@ -57,7 +57,7 @@ global.imagen2 = fs.readFileSync('./src/nuevobot.jpg')
 global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png')
 global.imagen4 = fs.readFileSync('./Menu.png')
 
-global.mods = [3313007291] 
+global.mods = [3109354823] 
 
 
 /*************************/
