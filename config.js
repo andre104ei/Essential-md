@@ -8,14 +8,14 @@ import axios from 'axios'
 import moment from 'moment-timezone' 
 
 global.owner = [
-  ['393312171655', '𝐄𝐒𝐒𝐄𝐍𝐓𝐈𝐀𝐋 𝐁Ꮻ𝐓', true],
-  ['377607935810'],
-  ['393756447945'],
-  ['393312171655']
+  ['3313007291', 'andrea Bot', true],
+  ['3313007291'],
+  ['3313007291'],
+  ['3313007291']
 ] 
 
-global.suittag = ['393312171655'] 
-global.prems = ['393312171655'] 
+global.suittag = ['3313007291'] 
+global.prems = ['3313007291'] 
 
 global.packname = '𝐄𝐒𝐒𝐄𝐍𝐓𝐈𝐀𝐋'
 global.author = '𝐁Ꮻ𝐓'
@@ -110,10 +110,10 @@ let emot = {
       bow: '🏹 Super Arco',
       pickaxe: '⛏️ Pico',
       sword: '⚔️ Espada',
-      common: '📦 Caja Común',
-      uncoommon: '🥡 Caja Poco Común',
-      mythic: '🗳️ Caja Mítico',
-      legendary: '🎁 Caja Legendaria',
+      common: '📦 Cassa Commune',
+      uncoommon: '🥡 Cassa non comune',
+      mythic: '🗳️ Cassa mitica',
+      legendary: '🎁 Caja leggendaria',
       petFood: '🍖 Alimento para Mascota',
       pet: '🍱 Caja para Mascota',
       bibitanggur: '🍇 Semilla de Uva',
@@ -122,38 +122,38 @@ let emot = {
       bibitmangga: '🥭 Semilla de Mango',
       bibitpisang: '🍌 Semillas de Plátano',
       ayam: '🐓 Pollo',
-      babi: '🐖 Puerco',
+      babi: '🐖 maiale',
       Jabali: '🐗 Jabali',
       bull: '🐃 Toro',    
       buaya: '🐊 Cocodrilo',    
-      cat: '🐈 Gato',      
+      cat: '🐈 Gatto',      
       centaur: '🐐 Centauro',
       chicken: '🐓 Pollo',
-      cow: '🐄 Vaca', 
+      cow: '🐄 mucca', 
       dog: '🐕 Perro',
-      dragon: '🐉 Dragón',
+      dragon: '🐉 drago',
       elephant: '🐘 Elefante',
-      fox: '🦊 Zorro',
-      giraffe: '🦒 Jirafa',
-      griffin: '🦅 Ave',
-      horse: '🐎 Caballo',
+      fox: '🦊 volpe',
+      giraffe: '🦒 giraffa',
+      griffin: '🦅 cervo',
+      horse: '🐎 Cavallo',
       kambing: '🐐 Cabra',
-      kerbau: '🐃 Búfalo',
-      lion: '🦁 León',
-      money: '👾 MysticCoins',
+      kerbau: '🐃 bufalo',
+      lion: '🦁 leone',
+      money: '👾 soldi',
       monyet: '🐒 Mono',
       panda: '🐼 Panda',
-      snake: '🐍 Serpiente',
-      phonix: '🕊️ Fénix',
+      snake: '🐍 serpente',
+      phonix: '🕊️ fenice',
       rhinoceros: '🦏 Rinoceronte',
-      wolf: '🐺 Lobo',
+      wolf: '🐺 lupo',
       tiger: '🐅 Tigre',
-      cumi: '🦑 Calamar',
-      udang: '🦐 Camarón',
-      ikan: '🐟 Pez',
-      fideos: '🍝 Fideos',
+      cumi: '🦑 calamaro',
+      udang: '🦐 pesce',
+      ikan: '🐟 pesce',
+      fideos: '🍝 pasta',
       ramuan: '🧪 Ingrediente NOVA',
-      knife: '🔪 Cuchillo'
+      knife: '🔪 coltello'
     }
 let results = Object.keys(emot).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
 if (!results.length) return ''
